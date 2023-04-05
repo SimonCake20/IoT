@@ -2,6 +2,7 @@ version: "3"
 
 services:
   mosquitto:
+    container_name: mosquitto
     image: eclipse-mosquitto
     ports:
       - "1883:1883"
@@ -12,6 +13,7 @@ services:
       - ./mosquitto/log:/mosquitto/log
 
   nodered:
+    container_name: nodered
     image: nodered/node-red
     ports:
       - "1880:1880"
