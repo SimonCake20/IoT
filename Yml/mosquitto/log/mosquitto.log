@@ -1,0 +1,86 @@
+1680688024: mosquitto version 2.0.15 starting
+1680688024: Config loaded from /mosquitto/config/mosquitto.conf.
+1680688024: Opening ipv4 listen socket on port 1883.
+1680688024: Opening ipv6 listen socket on port 1883.
+1680688024: mosquitto version 2.0.15 running
+1680688117: New connection from 172.21.0.2:36926 on port 1883.
+1680688117: New client connected from 172.21.0.2:36926 as nodered_652dbcfdfcb6d06a (p2, c1, k60).
+1680688117: No will message specified.
+1680688117: Sending CONNACK to nodered_652dbcfdfcb6d06a (0, 0)
+1680688131: Received PUBLISH from nodered_652dbcfdfcb6d06a (d0, q0, r0, m0, 'timestamp', ... (13 bytes))
+1680688183: Received DISCONNECT from nodered_652dbcfdfcb6d06a
+1680688183: Client nodered_652dbcfdfcb6d06a disconnected.
+1680688183: New connection from 172.21.0.2:52566 on port 1883.
+1680688183: New client connected from 172.21.0.2:52566 as nodered_3e7b893c8920a691 (p2, c1, k60).
+1680688183: No will message specified.
+1680688183: Sending CONNACK to nodered_3e7b893c8920a691 (0, 0)
+1680688183: Received SUBSCRIBE from nodered_3e7b893c8920a691
+1680688183: 	timestamp (QoS 2)
+1680688183: nodered_3e7b893c8920a691 2 timestamp
+1680688183: Sending SUBACK to nodered_3e7b893c8920a691
+1680688202: Received UNSUBSCRIBE from nodered_3e7b893c8920a691
+1680688202: 	timestamp
+1680688202: nodered_3e7b893c8920a691 timestamp
+1680688202: Sending UNSUBACK to nodered_3e7b893c8920a691
+1680688202: Received DISCONNECT from nodered_3e7b893c8920a691
+1680688202: Client nodered_3e7b893c8920a691 disconnected.
+1680688202: New connection from 172.21.0.2:36242 on port 1883.
+1680688202: New client connected from 172.21.0.2:36242 as nodered_8914a97af3b9cac8 (p2, c1, k60).
+1680688202: No will message specified.
+1680688202: Sending CONNACK to nodered_8914a97af3b9cac8 (0, 0)
+1680688202: Received SUBSCRIBE from nodered_8914a97af3b9cac8
+1680688202: 	timestamp (QoS 2)
+1680688202: nodered_8914a97af3b9cac8 2 timestamp
+1680688202: Sending SUBACK to nodered_8914a97af3b9cac8
+1680688204: Received PUBLISH from nodered_8914a97af3b9cac8 (d0, q0, r0, m0, 'timestamp', ... (13 bytes))
+1680688204: Sending PUBLISH to nodered_8914a97af3b9cac8 (d0, q0, r0, m0, 'timestamp', ... (13 bytes))
+1680688264: Received PINGREQ from nodered_8914a97af3b9cac8
+1680688264: Sending PINGRESP to nodered_8914a97af3b9cac8
+1680688324: Received PINGREQ from nodered_8914a97af3b9cac8
+1680688324: Sending PINGRESP to nodered_8914a97af3b9cac8
+1680688339: Received UNSUBSCRIBE from nodered_8914a97af3b9cac8
+1680688339: 	timestamp
+1680688339: nodered_8914a97af3b9cac8 timestamp
+1680688339: Sending UNSUBACK to nodered_8914a97af3b9cac8
+1680688339: Received DISCONNECT from nodered_8914a97af3b9cac8
+1680688339: Client nodered_8914a97af3b9cac8 disconnected.
+1680688339: New connection from 172.21.0.2:56896 on port 1883.
+1680688339: New client connected from 172.21.0.2:56896 as nodered_5476b3515ca47259 (p2, c1, k60).
+1680688339: No will message specified.
+1680688339: Sending CONNACK to nodered_5476b3515ca47259 (0, 0)
+1680688339: Received SUBSCRIBE from nodered_5476b3515ca47259
+1680688339: 	timestamp (QoS 2)
+1680688339: nodered_5476b3515ca47259 2 timestamp
+1680688339: Sending SUBACK to nodered_5476b3515ca47259
+1680688355: Received PUBLISH from nodered_5476b3515ca47259 (d0, q0, r0, m0, 'helloworld', ... (12 bytes))
+1680688387: Received PUBLISH from nodered_5476b3515ca47259 (d0, q0, r0, m0, 'helloworld', ... (12 bytes))
+1680688390: Received UNSUBSCRIBE from nodered_5476b3515ca47259
+1680688390: 	timestamp
+1680688390: nodered_5476b3515ca47259 timestamp
+1680688390: Sending UNSUBACK to nodered_5476b3515ca47259
+1680688391: Received DISCONNECT from nodered_5476b3515ca47259
+1680688391: Client nodered_5476b3515ca47259 disconnected.
+1680688391: New connection from 172.21.0.2:43024 on port 1883.
+1680688391: New client connected from 172.21.0.2:43024 as nodered_c0740213662326ef (p2, c1, k60).
+1680688391: No will message specified.
+1680688391: Sending CONNACK to nodered_c0740213662326ef (0, 0)
+1680688391: Received SUBSCRIBE from nodered_c0740213662326ef
+1680688391: 	timestamp (QoS 2)
+1680688391: nodered_c0740213662326ef 2 timestamp
+1680688391: Sending SUBACK to nodered_c0740213662326ef
+1680688391: Received SUBSCRIBE from nodered_c0740213662326ef
+1680688391: 	helloworld (QoS 2)
+1680688391: nodered_c0740213662326ef 2 helloworld
+1680688391: Sending SUBACK to nodered_c0740213662326ef
+1680688392: Received PUBLISH from nodered_c0740213662326ef (d0, q0, r0, m0, 'helloworld', ... (12 bytes))
+1680688392: Sending PUBLISH to nodered_c0740213662326ef (d0, q0, r0, m0, 'helloworld', ... (12 bytes))
+1680688452: Received PINGREQ from nodered_c0740213662326ef
+1680688452: Sending PINGRESP to nodered_c0740213662326ef
+1680688512: Received PINGREQ from nodered_c0740213662326ef
+1680688512: Sending PINGRESP to nodered_c0740213662326ef
+1680688545: Received UNSUBSCRIBE from nodered_c0740213662326ef
+1680688545: 	timestamp
+1680688545: nodered_c0740213662326ef timestamp
+1680688545: Sending UNSUBACK to nodered_c0740213662326ef
+1680688545: mosquitto version 2.0.15 terminating
+1680688545: Saving in-memory database to /mosquitto/data//mosquitto.db.
